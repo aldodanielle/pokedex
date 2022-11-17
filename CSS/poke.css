@@ -1,0 +1,96 @@
+@font-face{
+    font-family: 'Pokemon';
+    src: url('./fuente/pokemon/Pokemon\ Solid.ttf');
+    font-weight: 100;
+    font-style: solid;
+}
+.Pokemon{
+    font-family: 'Pokemon', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.partRed1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F78F8F;
+    border: #C74343 5px solid;
+    width: 350px;
+    height: 220px;
+}
+
+.part1{
+    display: flex;
+    justify-content: column;
+    background-color: #C2E8FF;
+    border: black 3px solid;
+    margin: 15px solid;
+    width: 270px; /*Ancho*/
+    height: 150px; /*Alto*/    
+}
+.iz{
+    display: flex;
+    background-color: #65788E;
+    border: #46494D 3px solid;
+    border-right: none;/*Para eliminar el borde de un lado*/
+    width: 30px;
+    height: 130px;
+}
+.der{
+    display: flex;
+    background-color: #65788E;
+    border: #46494D 3px solid;
+    border-left: none;/*Para eliminar el borde de un lado*/
+    width: 30px;
+    height: 130px;
+}
+.pokePhoto{
+    border: black 10px;
+    /*border-radius: 5px;*/
+    width: 270px; /*Ancho*/
+}
+.part2{/*enmedio*/
+    display: flex;
+    align-items: center;
+    justify-content: center; /*Centra contenido*/
+    background-color: #AB3434;
+    width: 300px; /*Ancho*/
+    height: 15px; /*Alto*/  
+}
+.part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C2E8FF;
+    border: black 3px solid;
+    margin: blue 15px solid; 
+    width: 270px; /*Ancho*/
+    height: 150px; /*Alto*/
+}
+.partRed2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F78F8F;
+    border: #C74343 5px solid;
+    width: 350px;
+    height: 220px;
+}
+
+/*Informacion*/
+.pokeInfo{
+    display: flex;
+    flex-direction: column;
+
+}
